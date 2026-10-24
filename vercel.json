@@ -1,0 +1,92 @@
+{
+  "headers": [
+    {
+      "source": "/source/optimized/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/source/gambar/selife_ganteng.jpeg",
+      "destination": "https://projek-pbp-media.vercel.app/source/gambar/selife_ganteng.jpeg"
+    },
+    {
+      "source": "/source/gambar/gambar_web_ateng_sh.jpeg",
+      "destination": "https://projek-pbp-media.vercel.app/source/gambar/gambar_web_ateng_sh.jpeg"
+    },
+    {
+      "source": "/source/gambar/dokter_bedah_atenk.jpeg",
+      "destination": "https://projek-pbp-media.vercel.app/source/gambar/dokter_bedah_atenk.jpeg"
+    },
+    {
+      "source": "/source/gambar/dokter_atenk.jpeg",
+      "destination": "https://projek-pbp-media.vercel.app/source/gambar/dokter_atenk.jpeg"
+    },
+    {
+      "source": "/source/gambar/atenk_skenuy.jpeg",
+      "destination": "https://projek-pbp-media.vercel.app/source/gambar/atenk_skenuy.jpeg"
+    },
+    {
+      "source": "/source/gambar/ateng_skenuy.jpeg",
+      "destination": "https://projek-pbp-media.vercel.app/source/gambar/ateng_skenuy.jpeg"
+    },
+    {
+      "source": "/source/gambar/ateng_pup.jpeg",
+      "destination": "https://projek-pbp-media.vercel.app/source/gambar/ateng_pup.jpeg"
+    },
+    {
+      "source": "/source/optimized/groom-1-1200.4385bce28c.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-1-1200.4385bce28c.webp"
+    },
+    {
+      "source": "/source/optimized/groom-1-400.3431e3b8ba.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-1-400.3431e3b8ba.webp"
+    },
+    {
+      "source": "/source/optimized/groom-1-800.39a0592f15.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-1-800.39a0592f15.webp"
+    },
+    {
+      "source": "/source/optimized/groom-2-1200.f2f3131af2.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-2-1200.f2f3131af2.webp"
+    },
+    {
+      "source": "/source/optimized/groom-2-400.961e27a384.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-2-400.961e27a384.webp"
+    },
+    {
+      "source": "/source/optimized/groom-2-800.23842b5daf.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-2-800.23842b5daf.webp"
+    },
+    {
+      "source": "/source/optimized/groom-3-1200.c2cf6f7a41.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-3-1200.c2cf6f7a41.webp"
+    },
+    {
+      "source": "/source/optimized/groom-3-400.f9d30d9cd6.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-3-400.f9d30d9cd6.webp"
+    },
+    {
+      "source": "/source/optimized/groom-3-800.ebf031e5df.webp",
+      "destination": "https://projek-pbp-media.vercel.app/source/optimized/groom-3-800.ebf031e5df.webp"
+    }
+  ]
+}

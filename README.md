@@ -24,7 +24,7 @@ Tambahkan parameter nama pada URL, misalnya `?to=Budi` atau `?to=Bapak%20Budi`.
 
 ## Formulir
 
-Formulir menyiapkan ringkasan konfirmasi yang dapat disalin atau diunduh. Pesan tidak dikirim otomatis.
+Formulir memvalidasi nama, status kehadiran, dan jumlah tamu, lalu menampilkan pesan "Konfirmasi Selesai". Formulir berjalan di browser tanpa penyimpanan atau pengiriman data.
 
 ## Deployment
 

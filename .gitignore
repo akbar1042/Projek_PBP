@@ -1,10 +1,4 @@
 .vercel/
-.env
-.env.*
-!.env.example
-node_modules/
-.DS_Store
-Thumbs.db
 
 /source/gambar/selife_ganteng.jpeg
 /source/gambar/gambar_web_ateng_sh.jpeg
